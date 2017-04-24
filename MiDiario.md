@@ -1,6 +1,6 @@
 # Swift Coding For 80 Days - Diario
 
-### Day 0: Abril 24, 2017 
+### Day 1: Abril 24, 2017 
 
 ##### (Borrame o comentame algo)
 
