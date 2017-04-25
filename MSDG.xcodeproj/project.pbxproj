@@ -13,7 +13,26 @@
 		8725F45C1EAE9AFB0022F129 /* MSDG.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8725F45A1EAE9AFB0022F129 /* MSDG.xcdatamodeld */; };
 		8725F45E1EAE9AFB0022F129 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8725F45D1EAE9AFB0022F129 /* Assets.xcassets */; };
 		8725F4611EAE9AFB0022F129 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8725F45F1EAE9AFB0022F129 /* LaunchScreen.storyboard */; };
+		8725F46F1EAEA58C0022F129 /* MSDGUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8725F46E1EAEA58C0022F129 /* MSDGUITests.swift */; };
+		8725F47D1EAEA5A00022F129 /* MSDGTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8725F47C1EAEA5A00022F129 /* MSDGTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8725F4711EAEA58C0022F129 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8725F4481EAE9AFB0022F129 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8725F44F1EAE9AFB0022F129;
+			remoteInfo = MSDG;
+		};
+		8725F47F1EAEA5A00022F129 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8725F4481EAE9AFB0022F129 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8725F44F1EAE9AFB0022F129;
+			remoteInfo = MSDG;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		8725F4501EAE9AFB0022F129 /* MSDG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MSDG.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,10 +43,30 @@
 		8725F45D1EAE9AFB0022F129 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8725F4601EAE9AFB0022F129 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8725F4621EAE9AFB0022F129 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8725F46C1EAEA58C0022F129 /* MSDGUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MSDGUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8725F46E1EAEA58C0022F129 /* MSDGUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSDGUITests.swift; sourceTree = "<group>"; };
+		8725F4701EAEA58C0022F129 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8725F47A1EAEA59F0022F129 /* MSDGTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MSDGTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8725F47C1EAEA5A00022F129 /* MSDGTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSDGTests.swift; sourceTree = "<group>"; };
+		8725F47E1EAEA5A00022F129 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		8725F44D1EAE9AFB0022F129 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8725F4691EAEA58C0022F129 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8725F4771EAEA59F0022F129 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,6 +80,8 @@
 			isa = PBXGroup;
 			children = (
 				8725F4521EAE9AFB0022F129 /* MSDG */,
+				8725F46D1EAEA58C0022F129 /* MSDGUITests */,
+				8725F47B1EAEA5A00022F129 /* MSDGTests */,
 				8725F4511EAE9AFB0022F129 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +90,8 @@
 			isa = PBXGroup;
 			children = (
 				8725F4501EAE9AFB0022F129 /* MSDG.app */,
+				8725F46C1EAEA58C0022F129 /* MSDGUITests.xctest */,
+				8725F47A1EAEA59F0022F129 /* MSDGTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,6 +108,24 @@
 				8725F45A1EAE9AFB0022F129 /* MSDG.xcdatamodeld */,
 			);
 			path = MSDG;
+			sourceTree = "<group>";
+		};
+		8725F46D1EAEA58C0022F129 /* MSDGUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8725F46E1EAEA58C0022F129 /* MSDGUITests.swift */,
+				8725F4701EAEA58C0022F129 /* Info.plist */,
+			);
+			path = MSDGUITests;
+			sourceTree = "<group>";
+		};
+		8725F47B1EAEA5A00022F129 /* MSDGTests */ = {
+			isa = PBXGroup;
+			children = (
+				8725F47C1EAEA5A00022F129 /* MSDGTests.swift */,
+				8725F47E1EAEA5A00022F129 /* Info.plist */,
+			);
+			path = MSDGTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,6 +148,42 @@
 			productReference = 8725F4501EAE9AFB0022F129 /* MSDG.app */;
 			productType = "com.apple.product-type.application";
 		};
+		8725F46B1EAEA58C0022F129 /* MSDGUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8725F4731EAEA58C0022F129 /* Build configuration list for PBXNativeTarget "MSDGUITests" */;
+			buildPhases = (
+				8725F4681EAEA58C0022F129 /* Sources */,
+				8725F4691EAEA58C0022F129 /* Frameworks */,
+				8725F46A1EAEA58C0022F129 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8725F4721EAEA58C0022F129 /* PBXTargetDependency */,
+			);
+			name = MSDGUITests;
+			productName = MSDGUITests;
+			productReference = 8725F46C1EAEA58C0022F129 /* MSDGUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		8725F4791EAEA59F0022F129 /* MSDGTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8725F4811EAEA5A00022F129 /* Build configuration list for PBXNativeTarget "MSDGTests" */;
+			buildPhases = (
+				8725F4761EAEA59F0022F129 /* Sources */,
+				8725F4771EAEA59F0022F129 /* Frameworks */,
+				8725F4781EAEA59F0022F129 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8725F4801EAEA5A00022F129 /* PBXTargetDependency */,
+			);
+			name = MSDGTests;
+			productName = MSDGTests;
+			productReference = 8725F47A1EAEA59F0022F129 /* MSDGTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -100,6 +197,16 @@
 					8725F44F1EAE9AFB0022F129 = {
 						CreatedOnToolsVersion = 8.3.2;
 						ProvisioningStyle = Automatic;
+					};
+					8725F46B1EAEA58C0022F129 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8725F44F1EAE9AFB0022F129;
+					};
+					8725F4791EAEA59F0022F129 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8725F44F1EAE9AFB0022F129;
 					};
 				};
 			};
@@ -117,6 +224,8 @@
 			projectRoot = "";
 			targets = (
 				8725F44F1EAE9AFB0022F129 /* MSDG */,
+				8725F46B1EAEA58C0022F129 /* MSDGUITests */,
+				8725F4791EAEA59F0022F129 /* MSDGTests */,
 			);
 		};
 /* End PBXProject section */
@@ -129,6 +238,20 @@
 				8725F4611EAE9AFB0022F129 /* LaunchScreen.storyboard in Resources */,
 				8725F45E1EAE9AFB0022F129 /* Assets.xcassets in Resources */,
 				8725F4591EAE9AFB0022F129 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8725F46A1EAEA58C0022F129 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8725F4781EAEA59F0022F129 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,7 +268,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8725F4681EAEA58C0022F129 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8725F46F1EAEA58C0022F129 /* MSDGUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8725F4761EAEA59F0022F129 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8725F47D1EAEA5A00022F129 /* MSDGTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8725F4721EAEA58C0022F129 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8725F44F1EAE9AFB0022F129 /* MSDG */;
+			targetProxy = 8725F4711EAEA58C0022F129 /* PBXContainerItemProxy */;
+		};
+		8725F4801EAEA5A00022F129 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8725F44F1EAE9AFB0022F129 /* MSDG */;
+			targetProxy = 8725F47F1EAEA5A00022F129 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		8725F4571EAE9AFB0022F129 /* Main.storyboard */ = {
@@ -288,6 +440,56 @@
 			};
 			name = Release;
 		};
+		8725F4741EAEA58C0022F129 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MSDGUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.juanmorillios.MSDGUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MSDG;
+			};
+			name = Debug;
+		};
+		8725F4751EAEA58C0022F129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MSDGUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.juanmorillios.MSDGUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MSDG;
+			};
+			name = Release;
+		};
+		8725F4821EAEA5A00022F129 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MSDGTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.juanmorillios.MSDGTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MSDG.app/MSDG";
+			};
+			name = Debug;
+		};
+		8725F4831EAEA5A00022F129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MSDGTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.juanmorillios.MSDGTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MSDG.app/MSDG";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -305,6 +507,22 @@
 			buildConfigurations = (
 				8725F4661EAE9AFB0022F129 /* Debug */,
 				8725F4671EAE9AFB0022F129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8725F4731EAEA58C0022F129 /* Build configuration list for PBXNativeTarget "MSDGUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8725F4741EAEA58C0022F129 /* Debug */,
+				8725F4751EAEA58C0022F129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8725F4811EAEA5A00022F129 /* Build configuration list for PBXNativeTarget "MSDGTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8725F4821EAEA5A00022F129 /* Debug */,
+				8725F4831EAEA5A00022F129 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
