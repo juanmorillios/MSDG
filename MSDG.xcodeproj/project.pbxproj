@@ -76,12 +76,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		870BFE4B1EB12B2B00151DD3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8725F45A1EAE9AFB0022F129 /* MSDG.xcdatamodeld */,
+				8725F4551EAE9AFB0022F129 /* ViewController.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		870BFE4C1EB12B4100151DD3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8725F4571EAE9AFB0022F129 /* Main.storyboard */,
+				8725F45F1EAE9AFB0022F129 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		870BFE4D1EB12B4C00151DD3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8725F4531EAE9AFB0022F129 /* AppDelegate.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		870BFE4E1EB12B5F00151DD3 /* Sopporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8725F4621EAE9AFB0022F129 /* Info.plist */,
+			);
+			name = "Sopporting Files";
+			path = MSDG;
+			sourceTree = "<group>";
+		};
 		8725F4471EAE9AFB0022F129 = {
 			isa = PBXGroup;
 			children = (
 				8725F4521EAE9AFB0022F129 /* MSDG */,
 				8725F46D1EAEA58C0022F129 /* MSDGUITests */,
 				8725F47B1EAEA5A00022F129 /* MSDGTests */,
+				870BFE4E1EB12B5F00151DD3 /* Sopporting Files */,
 				8725F4511EAE9AFB0022F129 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,13 +135,10 @@
 		8725F4521EAE9AFB0022F129 /* MSDG */ = {
 			isa = PBXGroup;
 			children = (
-				8725F4531EAE9AFB0022F129 /* AppDelegate.swift */,
-				8725F4551EAE9AFB0022F129 /* ViewController.swift */,
-				8725F4571EAE9AFB0022F129 /* Main.storyboard */,
+				870BFE4D1EB12B4C00151DD3 /* Controller */,
+				870BFE4B1EB12B2B00151DD3 /* Model */,
+				870BFE4C1EB12B4100151DD3 /* View */,
 				8725F45D1EAE9AFB0022F129 /* Assets.xcassets */,
-				8725F45F1EAE9AFB0022F129 /* LaunchScreen.storyboard */,
-				8725F4621EAE9AFB0022F129 /* Info.plist */,
-				8725F45A1EAE9AFB0022F129 /* MSDG.xcdatamodeld */,
 			);
 			path = MSDG;
 			sourceTree = "<group>";
@@ -509,6 +542,7 @@
 				8725F4671EAE9AFB0022F129 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8725F4731EAEA58C0022F129 /* Build configuration list for PBXNativeTarget "MSDGUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +551,7 @@
 				8725F4751EAEA58C0022F129 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8725F4811EAEA5A00022F129 /* Build configuration list for PBXNativeTarget "MSDGTests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +560,7 @@
 				8725F4831EAEA5A00022F129 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item-->
+        <!--Rutas-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MSDG" customModuleProvider="target" sceneMemberID="viewController">
@@ -22,13 +22,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="MSb-fe-gQm"/>
+                    <tabBarItem key="tabBarItem" title="Rutas" image="rutas" id="MSb-fe-gQm"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1146" y="-866"/>
         </scene>
-        <!--Item-->
+        <!--Estaciones-->
         <scene sceneID="QRD-qB-kQE">
             <objects>
                 <viewController id="nZZ-Ue-nrb" sceneMemberID="viewController">
@@ -41,7 +41,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="Bc9-fh-fDe"/>
+                    <tabBarItem key="tabBarItem" title="Estaciones" image="estaciones" id="Bc9-fh-fDe"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="i7U-xz-Wf6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -66,7 +66,7 @@
             </objects>
             <point key="canvasLocation" x="2954" y="-853"/>
         </scene>
-        <!--Item-->
+        <!--Líneas-->
         <scene sceneID="GQa-OR-ifO">
             <objects>
                 <viewController id="BQi-Z2-S0Q" sceneMemberID="viewController">
@@ -79,13 +79,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="KdH-7m-RM0"/>
+                    <tabBarItem key="tabBarItem" title="Líneas" image="lineas" id="KdH-7m-RM0"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="j2d-FE-eQe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1167" y="-144"/>
         </scene>
-        <!--Item-->
+        <!--Notificaciones-->
         <scene sceneID="Kyd-rg-HEE">
             <objects>
                 <viewController id="XSF-Tx-fSW" sceneMemberID="viewController">
@@ -98,7 +98,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="6vI-2h-Bud"/>
+                    <tabBarItem key="tabBarItem" title="Notificaciones" image="notificacione" id="6vI-2h-Bud"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wCr-9b-tFg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -129,8 +129,9 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="6Ty-Fv-pok" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="D38-Xd-Ff7">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.0039215686274509803" green="0.1764705882352941" blue="0.38431372549019605" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBar>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="AQX-ON-VLu"/>
@@ -146,4 +147,10 @@
             <point key="canvasLocation" x="-23" y="-733"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="estaciones" width="129" height="114"/>
+        <image name="lineas" width="130" height="118"/>
+        <image name="notificacione" width="141" height="132"/>
+        <image name="rutas" width="120" height="115"/>
+    </resources>
 </document>
