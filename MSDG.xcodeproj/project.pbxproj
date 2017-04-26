@@ -135,9 +135,9 @@
 		8725F4521EAE9AFB0022F129 /* MSDG */ = {
 			isa = PBXGroup;
 			children = (
-				870BFE4D1EB12B4C00151DD3 /* Controller */,
 				870BFE4B1EB12B2B00151DD3 /* Model */,
 				870BFE4C1EB12B4100151DD3 /* View */,
+				870BFE4D1EB12B4C00151DD3 /* Controller */,
 				8725F45D1EAE9AFB0022F129 /* Assets.xcassets */,
 			);
 			path = MSDG;
