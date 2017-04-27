@@ -12,7 +12,7 @@
         <!--METRO SANTO DOMINGO-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MSDG" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="MapViewController" customModule="MSDG" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -20,13 +20,26 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gIz-Wx-q8d">
+                                <rect key="frame" x="0.0" y="60.5" width="375" height="546"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="546" id="Jt6-t3-5bl"/>
+                                    <constraint firstAttribute="width" constant="375" id="P24-yh-gFZ"/>
+                                </constraints>
+                            </mapView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="gIz-Wx-q8d" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hx3-0N-nA2"/>
+                            <constraint firstItem="gIz-Wx-q8d" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="kA7-Pt-Knn"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="METRO SANTO DOMINGO" id="iPe-kK-udf"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1750" y="-1356"/>
+            <point key="canvasLocation" x="1749.5999999999999" y="-1356.0719640179911"/>
         </scene>
         <!--Estaciones-->
         <scene sceneID="QRD-qB-kQE">
@@ -146,13 +159,13 @@
             </objects>
             <point key="canvasLocation" x="-302" y="-550"/>
         </scene>
-        <!--Rutas-->
+        <!--Navigation Controller-->
         <scene sceneID="Wjr-3v-MmM">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="1dG-w2-SB9" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Rutas" image="rutas" id="MSb-fe-gQm"/>
+                    <tabBarItem key="tabBarItem" image="rutas" id="MSb-fe-gQm"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="5Je-9r-iSf">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="5Je-9r-iSf">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" red="0.0039215686274509803" green="0.1764705882352941" blue="0.38431372549019605" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -176,7 +189,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="KpU-FV-rgR" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Líneas" image="lineas" id="KdH-7m-RM0"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="9ja-E4-DTl">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="9ja-E4-DTl">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.0039215686269999999" green="0.1764705882" blue="0.38431372549999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -199,7 +212,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="7c6-oi-JRl" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Notificaciones" image="notificacione" id="6vI-2h-Bud"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="f97-c6-tcc">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="f97-c6-tcc">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.0039215686269999999" green="0.1764705882" blue="0.38431372549999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -222,7 +235,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="FNW-k9-cQ3" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Estaciones" image="estaciones" id="Bc9-fh-fDe"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="WMo-sD-ZNk">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="WMo-sD-ZNk">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.0039215686269999999" green="0.1764705882" blue="0.38431372549999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -245,7 +258,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="8Yw-PI-sny" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="cTo-yM-5D4"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="Ote-cR-DeH">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Ote-cR-DeH">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.0039215686269999999" green="0.1764705882" blue="0.38431372549999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -268,7 +281,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="gHe-eV-9JE" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="QMh-pr-3gq"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="92z-1d-xaK">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="92z-1d-xaK">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.0039215686269999999" green="0.1764705882" blue="0.38431372549999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

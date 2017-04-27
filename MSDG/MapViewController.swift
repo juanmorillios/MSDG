@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  MapViewController.swift
 //  MSDG
 //
 //  Created by Juan Morillo on 24/4/17.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class MapViewController: UIViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
