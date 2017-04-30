@@ -15,6 +15,8 @@
 		8725F4611EAE9AFB0022F129 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8725F45F1EAE9AFB0022F129 /* LaunchScreen.storyboard */; };
 		8725F46F1EAEA58C0022F129 /* MSDGUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8725F46E1EAEA58C0022F129 /* MSDGUITests.swift */; };
 		8725F47D1EAEA5A00022F129 /* MSDGTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8725F47C1EAEA5A00022F129 /* MSDGTests.swift */; };
+		87A0E0651EB65D8000E05DF4 /* InfoLine1TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A0E0641EB65D8000E05DF4 /* InfoLine1TableViewController.swift */; };
+		87A0E0671EB65D9100E05DF4 /* InfoLine2TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A0E0661EB65D9100E05DF4 /* InfoLine2TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		8725F47A1EAEA59F0022F129 /* MSDGTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MSDGTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8725F47C1EAEA5A00022F129 /* MSDGTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSDGTests.swift; sourceTree = "<group>"; };
 		8725F47E1EAEA5A00022F129 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87A0E0641EB65D8000E05DF4 /* InfoLine1TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoLine1TableViewController.swift; sourceTree = "<group>"; };
+		87A0E0661EB65D9100E05DF4 /* InfoLine2TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoLine2TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 		870BFE4D1EB12B4C00151DD3 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				87A0E0641EB65D8000E05DF4 /* InfoLine1TableViewController.swift */,
+				87A0E0661EB65D9100E05DF4 /* InfoLine2TableViewController.swift */,
 				8725F4531EAE9AFB0022F129 /* AppDelegate.swift */,
 			);
 			name = Controller;
@@ -296,6 +302,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8725F4561EAE9AFB0022F129 /* MapViewController.swift in Sources */,
+				87A0E0671EB65D9100E05DF4 /* InfoLine2TableViewController.swift in Sources */,
+				87A0E0651EB65D8000E05DF4 /* InfoLine1TableViewController.swift in Sources */,
 				8725F45C1EAE9AFB0022F129 /* MSDG.xcdatamodeld in Sources */,
 				8725F4541EAE9AFB0022F129 /* AppDelegate.swift in Sources */,
 			);
