@@ -58,13 +58,39 @@
                     <view key="view" contentMode="scaleToFill" id="u5L-qV-oDo">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="90L-FF-nh6">
+                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cel" id="6Lm-z4-wgE">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="6Lm-z4-wgE" id="aEk-4n-94L">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="nu5-Cf-hI8" id="L3G-um-fuk"/>
+                                    <outlet property="delegate" destination="nu5-Cf-hI8" id="hws-4o-2od"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="90L-FF-nh6" firstAttribute="top" secondItem="y3X-B5-q3z" secondAttribute="bottom" id="22o-Ae-Tcd"/>
+                            <constraint firstItem="eW5-9o-dif" firstAttribute="top" secondItem="90L-FF-nh6" secondAttribute="bottom" id="KRf-IT-IuX"/>
+                            <constraint firstAttribute="trailing" secondItem="90L-FF-nh6" secondAttribute="trailing" id="NcH-Sr-Hhd"/>
+                            <constraint firstItem="90L-FF-nh6" firstAttribute="leading" secondItem="u5L-qV-oDo" secondAttribute="leading" id="Wqi-pM-iMr"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Rutas" id="4Gn-lD-uZd"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FqJ-zY-xxY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4239" y="-2322"/>
+            <point key="canvasLocation" x="4333.6000000000004" y="-2322.1889055472266"/>
         </scene>
         <!--Item-->
         <scene sceneID="qWa-xI-BZ9">
