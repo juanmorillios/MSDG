@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -29,7 +30,7 @@
                                         <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ZhT-3w-dgD" id="Pz6-IY-qhe">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -70,7 +71,7 @@
                                         <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="BJq-hp-G7l" id="pvJ-QD-deG">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -465,17 +466,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="33y-Ur-2bm">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="33y-Ur-2bm">
                                 <rect key="frame" x="54" y="121" width="267" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="a65-gv-9LE"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="40"/>
                                 <state key="normal" title="LINEA 1">
                                     <color key="titleColor" red="0.87424701449999997" green="0.1212895885" blue="0.0036614506969999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tKC-sk-Cor">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tKC-sk-Cor">
                                 <rect key="frame" x="54" y="237" width="267" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="40"/>
                                 <state key="normal" title="LINEA 2">
                                     <color key="titleColor" red="0.0039215686269999999" green="0.1764705882" blue="0.38431372549999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -483,6 +485,15 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="33y-Ur-2bm" firstAttribute="leading" secondItem="eRd-RM-NOq" secondAttribute="leadingMargin" constant="38" id="389-TV-S0Y"/>
+                            <constraint firstItem="33y-Ur-2bm" firstAttribute="centerX" secondItem="eRd-RM-NOq" secondAttribute="centerX" id="3w2-Ui-15F"/>
+                            <constraint firstItem="MlV-ai-eae" firstAttribute="top" secondItem="tKC-sk-Cor" secondAttribute="bottom" constant="370" id="YN0-S0-ert"/>
+                            <constraint firstItem="33y-Ur-2bm" firstAttribute="leading" secondItem="tKC-sk-Cor" secondAttribute="leading" id="leA-d8-fgM"/>
+                            <constraint firstItem="33y-Ur-2bm" firstAttribute="top" secondItem="CoI-IS-VLd" secondAttribute="bottom" constant="57" id="rzR-VZ-vAo"/>
+                            <constraint firstItem="tKC-sk-Cor" firstAttribute="top" secondItem="33y-Ur-2bm" secondAttribute="bottom" constant="56" id="saA-mT-zYw"/>
+                            <constraint firstItem="33y-Ur-2bm" firstAttribute="trailing" secondItem="tKC-sk-Cor" secondAttribute="trailing" id="waq-Bs-ld6"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Líneas" id="gWT-ZP-dKp"/>
                 </viewController>
