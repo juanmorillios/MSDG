@@ -9,6 +9,8 @@
 import UIKit
 
 class InfoLine2TableViewController: UITableViewController {
+  @IBAction func btnPressedLineOne(_ sender: UIButton) {
+  }
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,5 +18,7 @@ class InfoLine2TableViewController: UITableViewController {
       
 }
 
+  @IBAction func btnPressedLineOne(_ sender: UIButton) {
+  }
 
 }

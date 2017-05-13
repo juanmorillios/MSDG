@@ -457,7 +457,7 @@
         <!--Líneas-->
         <scene sceneID="J6L-3S-Zo8">
             <objects>
-                <viewController id="44k-HZ-9rg" sceneMemberID="viewController">
+                <viewController id="44k-HZ-9rg" customClass="InfoLine2TableViewController" customModule="MSDG" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="CoI-IS-VLd"/>
                         <viewControllerLayoutGuide type="bottom" id="MlV-ai-eae"/>
@@ -475,6 +475,9 @@
                                 <state key="normal" title="LINEA 1">
                                     <color key="titleColor" red="0.87424701449999997" green="0.1212895885" blue="0.0036614506969999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="btnPressedLineOne:" destination="44k-HZ-9rg" eventType="touchUpInside" id="azH-UP-2fY"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tKC-sk-Cor">
                                 <rect key="frame" x="54" y="237" width="267" height="60"/>
@@ -482,6 +485,9 @@
                                 <state key="normal" title="LINEA 2">
                                     <color key="titleColor" red="0.0039215686269999999" green="0.1764705882" blue="0.38431372549999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="btnPressedLineOne:" destination="44k-HZ-9rg" eventType="touchUpInside" id="W8x-zV-8GV"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
