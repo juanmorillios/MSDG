@@ -15,10 +15,4 @@ class HorariosViewController: UIViewController {
 
            }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-      
-    }
-    
-
-}
+  }
