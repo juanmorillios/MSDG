@@ -10,7 +10,6 @@ import UIKit
 
 class InfoLine2TableViewController: UITableViewController {
  
-
     override func viewDidLoad() {
         super.viewDidLoad()
    
