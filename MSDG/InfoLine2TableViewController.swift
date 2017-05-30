@@ -12,10 +12,13 @@ class InfoLine2TableViewController: UITableViewController {
  
     override func viewDidLoad() {
         super.viewDidLoad()
-   
 }
 
   @IBAction func btnPressedLineOne(_ sender: UIButton) {
+ 
+    
+  
+  
   }
 
   }
