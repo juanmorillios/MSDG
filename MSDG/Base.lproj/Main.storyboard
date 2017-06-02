@@ -367,7 +367,7 @@
             </objects>
             <point key="canvasLocation" x="4169" y="-1051"/>
         </scene>
-        <!--Tarifas-->
+        <!--Title-->
         <scene sceneID="bEb-3d-YyX">
             <objects>
                 <viewController id="lqs-tu-1Jp" sceneMemberID="viewController">
@@ -417,8 +417,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Tarifas" id="K9n-zM-5aG">
-                        <barButtonItem key="backBarButtonItem" title=" " id="gFo-bW-XlL"/>
+                    <navigationItem key="navigationItem" title="Title" id="kar-C9-gBm">
+                        <barButtonItem key="leftBarButtonItem" title="Item" id="scm-tz-2A0"/>
+                        <barButtonItem key="rightBarButtonItem" title="Item" id="d2S-5U-cco"/>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WXT-4P-tPs" userLabel="First Responder" sceneMemberID="firstResponder"/>
