@@ -15,10 +15,8 @@ class InfoLine2TableViewController: UITableViewController {
 }
 
   @IBAction func btnPressedLineOne(_ sender: UIButton) {
- 
-    
-  
+
   
   }
 
-  }
+}
