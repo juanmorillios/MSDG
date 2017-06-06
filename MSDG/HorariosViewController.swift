@@ -9,7 +9,8 @@
 import UIKit
 
 protocol hours {
-  var hour: Date { get}
+  var hour: Date {get
+  }
 }
 
 class HorariosViewController: UIViewController {
@@ -17,6 +18,9 @@ class HorariosViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-      }
+  
+  }
 
+ 
+  
   }
