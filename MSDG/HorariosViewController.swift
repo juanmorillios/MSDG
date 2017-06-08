@@ -18,9 +18,7 @@ class HorariosViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-  
   }
 
- 
-  
-  }
+
+}
