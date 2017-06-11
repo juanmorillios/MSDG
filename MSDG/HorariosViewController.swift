@@ -8,10 +8,6 @@
 
 import UIKit
 
-protocol hours {
-  var hour: Date {get
-  }
-}
 
 class HorariosViewController: UIViewController {
 
