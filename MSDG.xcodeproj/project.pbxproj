@@ -15,6 +15,7 @@
 		8725F4611EAE9AFB0022F129 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8725F45F1EAE9AFB0022F129 /* LaunchScreen.storyboard */; };
 		8725F46F1EAEA58C0022F129 /* MSDGUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8725F46E1EAEA58C0022F129 /* MSDGUITests.swift */; };
 		8725F47D1EAEA5A00022F129 /* MSDGTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8725F47C1EAEA5A00022F129 /* MSDGTests.swift */; };
+		875961D31EEF40240062D595 /* RutasTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875961D21EEF40240062D595 /* RutasTableViewController.swift */; };
 		87A0E0651EB65D8000E05DF4 /* InfoLine1TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A0E0641EB65D8000E05DF4 /* InfoLine1TableViewController.swift */; };
 		87D130E51EC222CE005163F6 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D130E41EC222CE005163F6 /* InfoViewController.swift */; };
 		87D130E71EC22301005163F6 /* HorariosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D130E61EC22301005163F6 /* HorariosViewController.swift */; };
@@ -52,6 +53,7 @@
 		8725F47A1EAEA59F0022F129 /* MSDGTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MSDGTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8725F47C1EAEA5A00022F129 /* MSDGTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSDGTests.swift; sourceTree = "<group>"; };
 		8725F47E1EAEA5A00022F129 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		875961D21EEF40240062D595 /* RutasTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RutasTableViewController.swift; sourceTree = "<group>"; };
 		87A0E0641EB65D8000E05DF4 /* InfoLine1TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoLine1TableViewController.swift; sourceTree = "<group>"; };
 		87D130E41EC222CE005163F6 /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		87D130E61EC22301005163F6 /* HorariosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorariosViewController.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 				87D130E61EC22301005163F6 /* HorariosViewController.swift */,
 				87A0E0641EB65D8000E05DF4 /* InfoLine1TableViewController.swift */,
 				8725F4531EAE9AFB0022F129 /* AppDelegate.swift */,
+				875961D21EEF40240062D595 /* RutasTableViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -309,6 +312,7 @@
 				87D130E51EC222CE005163F6 /* InfoViewController.swift in Sources */,
 				87D130E71EC22301005163F6 /* HorariosViewController.swift in Sources */,
 				8725F45C1EAE9AFB0022F129 /* MSDG.xcdatamodeld in Sources */,
+				875961D31EEF40240062D595 /* RutasTableViewController.swift in Sources */,
 				8725F4541EAE9AFB0022F129 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
