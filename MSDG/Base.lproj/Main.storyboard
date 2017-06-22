@@ -385,55 +385,7 @@
                     <view key="view" contentMode="scaleToFill" id="hJA-7U-I2g">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="fddsdfsdfsffdffdsf" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qYM-bR-Ijn">
-                                <rect key="frame" x="118" y="93" width="139" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M7d-dF-b99">
-                                <rect key="frame" x="166.5" y="168" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Od-m9-bF0">
-                                <rect key="frame" x="166.5" y="242" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xsd-Mm-JCI">
-                                <rect key="frame" x="166.5" y="323" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Texto aquí" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="v1e-7y-Tpa">
-                                <rect key="frame" x="16" y="189.5" width="343" height="288"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="343" id="0ZV-fv-f4O"/>
-                                    <constraint firstAttribute="height" constant="288" id="Mzb-jT-PDJ"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="0Od-m9-bF0" firstAttribute="top" secondItem="ANh-mB-q2s" secondAttribute="bottom" constant="178" id="2G4-MA-B7W"/>
-                            <constraint firstItem="v1e-7y-Tpa" firstAttribute="centerX" secondItem="hJA-7U-I2g" secondAttribute="centerX" id="6zV-y1-HOo"/>
-                            <constraint firstItem="M7d-dF-b99" firstAttribute="top" secondItem="ANh-mB-q2s" secondAttribute="bottom" constant="104" id="AKI-iv-Bee"/>
-                            <constraint firstItem="qYM-bR-Ijn" firstAttribute="centerX" secondItem="hJA-7U-I2g" secondAttribute="centerX" id="FHO-vN-0Vt"/>
-                            <constraint firstItem="M7d-dF-b99" firstAttribute="centerX" secondItem="hJA-7U-I2g" secondAttribute="centerX" id="JYD-Wx-0lv"/>
-                            <constraint firstItem="xsd-Mm-JCI" firstAttribute="centerY" secondItem="hJA-7U-I2g" secondAttribute="centerY" id="Kuj-Zq-q5c"/>
-                            <constraint firstItem="qYM-bR-Ijn" firstAttribute="top" secondItem="ANh-mB-q2s" secondAttribute="bottom" constant="29" id="fd8-7M-Fi2"/>
-                            <constraint firstItem="v1e-7y-Tpa" firstAttribute="centerY" secondItem="hJA-7U-I2g" secondAttribute="centerY" id="q0s-ej-xuP"/>
-                            <constraint firstItem="xsd-Mm-JCI" firstAttribute="centerX" secondItem="hJA-7U-I2g" secondAttribute="centerX" id="tIo-ct-fhZ"/>
-                            <constraint firstItem="0Od-m9-bF0" firstAttribute="centerX" secondItem="hJA-7U-I2g" secondAttribute="centerX" id="tJo-Se-hQj"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Title" id="kar-C9-gBm">
                         <barButtonItem key="leftBarButtonItem" title="Item" id="scm-tz-2A0"/>
