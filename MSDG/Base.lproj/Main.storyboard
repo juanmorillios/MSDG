@@ -387,10 +387,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Title" id="kar-C9-gBm">
-                        <barButtonItem key="leftBarButtonItem" title="Item" id="scm-tz-2A0"/>
-                        <barButtonItem key="rightBarButtonItem" title="Item" id="d2S-5U-cco"/>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="Title" id="kar-C9-gBm"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WXT-4P-tPs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
