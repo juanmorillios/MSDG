@@ -19,7 +19,6 @@
 		878525FA1F03040D0095B62B /* MapTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878525F91F03040D0095B62B /* MapTableViewController.swift */; };
 		87A0E0651EB65D8000E05DF4 /* InfoLine1TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A0E0641EB65D8000E05DF4 /* InfoLine1TableViewController.swift */; };
 		87D130E51EC222CE005163F6 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D130E41EC222CE005163F6 /* InfoViewController.swift */; };
-		87D130E71EC22301005163F6 /* HorariosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D130E61EC22301005163F6 /* HorariosViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,7 +57,6 @@
 		878525F91F03040D0095B62B /* MapTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapTableViewController.swift; sourceTree = "<group>"; };
 		87A0E0641EB65D8000E05DF4 /* InfoLine1TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoLine1TableViewController.swift; sourceTree = "<group>"; };
 		87D130E41EC222CE005163F6 /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
-		87D130E61EC22301005163F6 /* HorariosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorariosViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +106,6 @@
 			isa = PBXGroup;
 			children = (
 				87D130E41EC222CE005163F6 /* InfoViewController.swift */,
-				87D130E61EC22301005163F6 /* HorariosViewController.swift */,
 				87A0E0641EB65D8000E05DF4 /* InfoLine1TableViewController.swift */,
 				878525F91F03040D0095B62B /* MapTableViewController.swift */,
 				8725F4531EAE9AFB0022F129 /* AppDelegate.swift */,
@@ -313,7 +310,6 @@
 				8725F4561EAE9AFB0022F129 /* MapViewController.swift in Sources */,
 				87A0E0651EB65D8000E05DF4 /* InfoLine1TableViewController.swift in Sources */,
 				87D130E51EC222CE005163F6 /* InfoViewController.swift in Sources */,
-				87D130E71EC22301005163F6 /* HorariosViewController.swift in Sources */,
 				878525FA1F03040D0095B62B /* MapTableViewController.swift in Sources */,
 				8725F45C1EAE9AFB0022F129 /* MSDG.xcdatamodeld in Sources */,
 				875961D31EEF40240062D595 /* RutasTableViewController.swift in Sources */,
