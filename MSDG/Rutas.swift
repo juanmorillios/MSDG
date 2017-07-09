@@ -18,12 +18,7 @@ class Ruta2: NSObject {
     self.name = name
     self.coordenada = coordenada
     
-    func obtenerRutas(name: String) -> String {
-    
-      return name
-    
-    }
- 
+  
   }
 
 }
