@@ -13,13 +13,13 @@ class Ruta2: NSObject {
   var name : String?
   var coordenada : Int?
   
-  init(name: String, coordenada: Int) {
-  
-    self.name = name
-    self.coordenada = coordenada
-    
-  
-  }
+//  init(name: String, coordenada: Int) {
+//  
+//    self.name = name
+//    self.coordenada = coordenada
+//    
+//  
+//  }
 
 }
 
