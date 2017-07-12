@@ -10,6 +10,7 @@ import UIKit
 
 class Ruta2: NSObject {
   
+  
   var name : String?
   var coordenada : Int?
   
