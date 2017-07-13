@@ -10,8 +10,6 @@ import UIKit
 import MapKit
 import CoreLocation
 
-var rutasMapa = [String]();
-
 class MapViewController: UIViewController {
 
   override func viewDidLoad() {
