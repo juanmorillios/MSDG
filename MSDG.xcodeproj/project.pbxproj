@@ -17,6 +17,7 @@
 		8725F47D1EAEA5A00022F129 /* MSDGTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8725F47C1EAEA5A00022F129 /* MSDGTests.swift */; };
 		875961D31EEF40240062D595 /* RutasTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875961D21EEF40240062D595 /* RutasTableViewController.swift */; };
 		878525FA1F03040D0095B62B /* MapTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878525F91F03040D0095B62B /* MapTableViewController.swift */; };
+		878744D21F1EB95300B0FE08 /* Metro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878744D11F1EB95300B0FE08 /* Metro.swift */; };
 		87A0E0651EB65D8000E05DF4 /* InfoLine1TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A0E0641EB65D8000E05DF4 /* InfoLine1TableViewController.swift */; };
 		87D130E51EC222CE005163F6 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D130E41EC222CE005163F6 /* InfoViewController.swift */; };
 /* End PBXBuildFile section */
@@ -55,6 +56,7 @@
 		8725F47E1EAEA5A00022F129 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		875961D21EEF40240062D595 /* RutasTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RutasTableViewController.swift; sourceTree = "<group>"; };
 		878525F91F03040D0095B62B /* MapTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapTableViewController.swift; sourceTree = "<group>"; };
+		878744D11F1EB95300B0FE08 /* Metro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Metro.swift; sourceTree = "<group>"; };
 		87A0E0641EB65D8000E05DF4 /* InfoLine1TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoLine1TableViewController.swift; sourceTree = "<group>"; };
 		87D130E41EC222CE005163F6 /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -88,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				8725F45A1EAE9AFB0022F129 /* MSDG.xcdatamodeld */,
+				878744D11F1EB95300B0FE08 /* Metro.swift */,
 				8725F4551EAE9AFB0022F129 /* MapViewController.swift */,
 			);
 			name = Model;
@@ -312,6 +315,7 @@
 				87D130E51EC222CE005163F6 /* InfoViewController.swift in Sources */,
 				878525FA1F03040D0095B62B /* MapTableViewController.swift in Sources */,
 				8725F45C1EAE9AFB0022F129 /* MSDG.xcdatamodeld in Sources */,
+				878744D21F1EB95300B0FE08 /* Metro.swift in Sources */,
 				875961D31EEF40240062D595 /* RutasTableViewController.swift in Sources */,
 				8725F4541EAE9AFB0022F129 /* AppDelegate.swift in Sources */,
 			);
