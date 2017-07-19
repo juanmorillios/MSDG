@@ -8,6 +8,13 @@
 
 import UIKit
 
+protocol MostrarRutasMetro {
+  
+  func obtenerRutasMetro(rutas: Metro)
+  func noObtenerRutasMetro(error: NSError)
+  
+}
+
 class Metro: NSObject {
 
 }
