@@ -10,11 +10,7 @@ import UIKit
 
 protocol MostrarRutasMetro {
   
-  func obtenerRutasMetro(rutas: Metro)
-  func obtenerEstacionesCercanas(estacioness: Metro)
-  func noObtenerRutasMetro(error: NSError)
-  
-}
+  }
 
 class Metro: NSObject {
 
